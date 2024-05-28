@@ -4,6 +4,7 @@ Flask
 itsdangerous
 Jinja2
 joblib
+MarkupSafe
 numpy
 pandas
 python-dateutil
@@ -11,6 +12,8 @@ pytz
 scikit-learn
 scipy
 six
+scikit-learn
 threadpoolctl
 Werkzeug
 gunicorn
+#####################################In linenumber 15 actuall required package we have with the name ""sklearn"" but it won't support to deploy this car-prediction application for that reason i am replacing the "sklearn" package with the "scikit-learn" package.##################################
